@@ -1,0 +1,42 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url('/static/ap_350058215783-1-e1518533824168.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+form{
+    align-items: center;
+    padding-left: 550px;
+    padding-top: 10px;
+    
+}
+#btn:hover{
+    background-color:black;
+    color: white;
+    transition: 1000ms;
+}
+#author:hover{
+    background-color: black;
+    color: white;
+    transition: 1000ms;
+}
+div{
+    text-align: center;
+    color:black
+ 
+}
+
+#author{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+#btn{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: aquamarine;
+    box-shadow: inset;
+}
+

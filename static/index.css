@@ -1,0 +1,36 @@
+#EYN{
+    padding: 0px;
+    margin: 0px;
+    position: sticky;
+    text-align: center;
+    background: #ecf4fb;
+    border: 2px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+
+#EYN p{
+    padding: 0px;
+    
+    position: sticky;
+    text-align: center;
+    background: #ecf4fb;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+
+}
+body{
+    overflow-x: hidden;
+}
+
+a:hover{
+    background-color: tomato;
+    border: 2px solid black;
+    border-radius: 5px;
+    animation: both;
+    transition: 500ms;
+    margin-right: 5px;
+}
+a{
+    margin-left: 10px; 
+}

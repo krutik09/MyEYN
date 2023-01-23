@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>signin</title>
+    <link rel="stylesheet" href = "/static/login.css" >
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"/>
+    <script src="/static/signin.js"></script>
+  </head>
+  <body>
+    <div class="signup-box">
+      <h1>Sign Up</h1>
+      <h4>It's free and only takes a minute</h4>
+      <form method="post" action="/signin">
+        <label>First Name</label>
+        <input type="text" name="fname"  />
+        <label>Last Name</label>
+        <input type="text" name="lname"  />
+        <label>Username</label>
+        <input type="text" name="username"/>
+        <label>Password</label>
+        <input type="password" name="password" id="password"  onchange="check_pass();"/>
+        <label>Confirm Password</label>
+        <input type="password" name="cpassword" id="confirm_password"  onchange="check_pass();"/>
+        <button value ="submit" id="submit">Submit</button>
+        <p id="alp">Already have an account?Click below button go to login page</p> 
+        <form action="/als" method="post">  
+        <button id = "button">Go to login</button>
+        </form>
+      </form>
+      
+    </div>
+    
+  </body>
+    
+</html>
+
+
+
+
+

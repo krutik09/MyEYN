@@ -1,0 +1,60 @@
+body {
+    padding-top: 85px;
+    font-family: 'Poppins', sans-serif, 'arial';
+    background-image: url(/static/7.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 72px;
+    color:black;
+    text-align: center;
+    margin: 1px;
+}
+h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin: 5px;
+}
+
+
+input{
+    margin:5px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: lightblue;
+    width: 500px;
+}
+textarea{
+    margin:5px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: lightblue;
+    width: 500px;
+    
+}
+
+.button1 {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 10px;
+    background-color: #f44336;
+    font-size: 18px;
+    float: center;
+    cursor: pointer;
+    
+  }
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
